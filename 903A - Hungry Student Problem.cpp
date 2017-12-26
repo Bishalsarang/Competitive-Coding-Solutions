@@ -31,8 +31,6 @@ int main() {
 			cout << "YES \n";
 			else
 			cout << "NO \n";
-		
-		
-	}
+		}
 	return 0;
 }

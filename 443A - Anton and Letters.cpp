@@ -11,11 +11,8 @@ int main() {
 	for(int i = 0; i < len; i++)
 {
 	if(s[i] >= 'a' && s[i] <= 'z')
-	{
-		//cout << ++j;
-		
 		alphas.insert(s[i]);
-	}
+	
 }
 cout << (int)alphas.size();
 		
