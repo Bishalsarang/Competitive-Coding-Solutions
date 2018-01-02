@@ -15,18 +15,18 @@ int main() {
   cin >> n >> m;
   int a[n], b[m];
   int lcm, hcf, hcf_B;
-  for (int i = 0; i < n; i++) {
+
+  for (int i = 0; i < n; i++) 
     cin >> a[i];
-  }
-
-  for (int i = 0; i < m; i++) {
+  
+  for (int i = 0; i < m; i++) 
     cin >> b[i];
-  }
-
+  
   if (n == 1)
     lcm = a[0];
   else
     lcm = lcmcalc(a, n);
+  
   //   cout << lcm;
   if (m == 1)
     hcf_B = b[0];
@@ -39,6 +39,7 @@ int main() {
     }
   }
   // cout << hcf_B;
+
   int count = 0;
   for (int i = lcm; i <= hcf_B; i += lcm) {
     if (hcf_B % i == 0)

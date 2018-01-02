@@ -18,8 +18,6 @@ int main() {
 	{
 		if((a[i - 1] < a[i] && a[i] < a[i+1]) || (a[i - 1] > a[i] && a[i] > a[i+1]) )
 			count++;;
-		
-			
 	}
 	cout << count;
 	return 0;
