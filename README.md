@@ -1,3 +1,5 @@
 # Competitive Programming Solutions
 
-Solutions to problems from hackerrank, codeforces, timus and other online judges
+My Solutions to problems from hackerrank, codeforces, hackerearth, codechef, timus and other online judges
+
+Most of the solutions are in C++ , some are in Python
